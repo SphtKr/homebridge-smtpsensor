@@ -1,0 +1,26 @@
+{
+  "name": "homebridge-smtpsensor",
+  "description": "SMTP Sensor plugin for homebridge: https://github.com/nfarina/homebridge",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/SphtKr/homebridge-smtpsensor.git"
+  },
+  "license": "ISC",
+  "preferGlobal": true,
+  "keywords": [
+    "homebridge-plugin",
+    "motion",
+    "camera",
+    "HomeKit"
+  ],
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.5"
+  },
+  "dependencies": {
+    "smtp-server": "^1.7.1",
+    "mailparser": "^0.5.3",
+    "debug": "^2.2.0"
+  }
+}
