@@ -124,7 +124,7 @@ SmtpSensorAccessory.prototype = {
             this.timer = setTimeout(function(){
                 changeAction(!newState);
                 delete this.timer;
-            }, this.window_seconds * 1000);
+            }.bind(this), this.window_seconds * 1000);
         }.bind(this);
 
         return [informationService, service];
